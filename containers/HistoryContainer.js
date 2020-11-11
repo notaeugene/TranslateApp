@@ -1,6 +1,9 @@
 import React from 'react';
-import { View, Text, ScrollView, FlatList } from 'react-native';
-import Icon from 'react-native-ionicons';
+import { View, Text, FlatList } from 'react-native';
+
+import { SPACING } from '../utils/constants';
+
+import IconList from '../assets/icons/list.svg';
 
 import HistoryItem from '../components/HistoryItem';
 
@@ -38,17 +41,27 @@ const HistoryContainer = () => {
         marginTop: 15,
         flex: 1,
       }}>
-      <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-        <Icon
-          name="ios-list"
-          style={{ fontSize: 18, color: '#ADADAD', marginRight: 8 }}
-        />
-        <Text style={{ fontWeight: '500', color: '#ADADAD' }}>History</Text>
+      <View
+        style={{
+          flexDirection: 'row',
+          alignItems: 'center',
+          paddingHorizontal: SPACING,
+        }}>
+        <IconList style={{ marginRight: 8, color: '#ADADAD' }} />
+        <Text
+          style={{
+            fontFamily: 'FiraSans-Medium',
+            fontSize: 16,
+            color: '#ADADAD',
+          }}>
+          History
+        </Text>
       </View>
       <FlatList
         data={HISTORY_DATA}
         renderItem={({ item }) => <HistoryItem {...item} />}
-        keyExtractor={(item) => item.id}
+        keyExtractor={(item) => String(item.id)}
+        style={{ paddingHorizontal: SPACING }}
       />
     </View>
   );

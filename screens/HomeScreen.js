@@ -14,14 +14,10 @@ import Translator from '../components/Translator';
 const HomeScreen = () => (
   <>
     <Header />
-    <SafeAreaView
-      style={{
-        flex: 1,
-        alignItems: 'center',
-      }}>
+    <SafeAreaView style={{ alignItems: 'center' }}>
       <Translator />
-      <HistoryContainer />
     </SafeAreaView>
+    <HistoryContainer />
   </>
 );
 
@@ -64,7 +60,12 @@ const Header = () => (
         source={require('../assets/img/logo.png')}
         style={{ marginRight: 15 }}
       />
-      <Text style={{ fontWeight: '500', fontSize: 28, marginBottom: 50 }}>
+      <Text
+        style={{
+          fontFamily: 'FiraSans-Medium',
+          fontSize: 28,
+          marginBottom: 50,
+        }}>
         Translate
       </Text>
     </View>

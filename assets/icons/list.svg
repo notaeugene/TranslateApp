@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.315" height="11.333" viewBox="0 0 14.315 11.333">
+  <g id="Icon_ionic-ios-list" data-name="Icon ionic-ios-list" transform="translate(-4.5 -7.313)">
+    <path id="Контур_3" data-name="Контур 3" d="M6.588,17.075a1.044,1.044,0,1,1-1.044-1.044A1.044,1.044,0,0,1,6.588,17.075Z" transform="translate(0 -4.096)" fill="currentColor"/>
+    <path id="Контур_4" data-name="Контур 4" d="M6.588,8.356A1.044,1.044,0,1,1,5.544,7.313,1.044,1.044,0,0,1,6.588,8.356Z" fill="currentColor"/>
+    <path id="Контур_5" data-name="Контур 5" d="M6.588,25.794A1.044,1.044,0,1,1,5.544,24.75a1.044,1.044,0,0,1,1.044,1.044Z" transform="translate(0 -8.192)" fill="currentColor"/>
+    <path id="Контур_6" data-name="Контур 6" d="M21.9,16.875H12.936a.6.6,0,1,0,0,1.193H21.9a.6.6,0,1,0,0-1.193Z" transform="translate(-3.683 -4.493)" fill="currentColor"/>
+    <path id="Контур_7" data-name="Контур 7" d="M21.9,25.594H12.936a.6.6,0,1,0,0,1.193H21.9a.6.6,0,1,0,0-1.193Z" transform="translate(-3.683 -8.589)" fill="currentColor"/>
+    <path id="Контур_8" data-name="Контур 8" d="M12.936,9.349H21.9a.6.6,0,1,0,0-1.193H12.936a.6.6,0,1,0,0,1.193Z" transform="translate(-3.683 -0.396)" fill="currentColor"/>
+  </g>
+</svg>

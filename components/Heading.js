@@ -1,8 +1,10 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-const Heading = ({ children }) => (
-  <Text style={{ fontWeight: '500', fontSize: 28 }}>{children}</Text>
+const Heading = ({ text, style }) => (
+  <Text style={{ fontFamily: 'FiraSans-Medium', fontSize: 28, ...style }}>
+    {text}
+  </Text>
 );
 
 export default Heading;

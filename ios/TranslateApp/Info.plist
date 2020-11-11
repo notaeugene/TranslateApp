@@ -55,6 +55,8 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
+		<string>FiraSans-Regular.ttf</string>
+		<string>FiraSans-Medium.ttf</string>
 		<string>Ionicons.ttf</string>
 	</array>
 </dict>
