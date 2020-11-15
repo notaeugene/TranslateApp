@@ -8,14 +8,13 @@ import { SafeAreaView } from 'react-native';
 import Svg, { Defs, LinearGradient, Path, Stop } from 'react-native-svg';
 
 import HistoryContainer from '../containers/HistoryContainer';
-
-import Translator from '../components/Translator';
+import TranslatorContainer from '../containers/TranslatorContainer';
 
 const HomeScreen = () => (
   <>
     <Header />
     <SafeAreaView style={{ alignItems: 'center' }}>
-      <Translator />
+      <TranslatorContainer />
     </SafeAreaView>
     <HistoryContainer />
   </>
