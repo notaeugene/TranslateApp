@@ -10,7 +10,8 @@ import TranslationCard from '../components/TranslationCard';
 import Examples from '../components/Examples';
 
 const TRANSLATION_DATA = {
-  transcription: 'ˈen.vi',
+  translation: 'envy',
+  transcription: '/ˈen.vi/',
   nouns: ['зависть'],
   verbs: ['завидовать', 'позавидовать'],
 };
@@ -63,7 +64,7 @@ const TranslationContainer = () => (
         <Heading text={'Envy'} style={{ marginRight: 15 }} />
         <IconStar style={{ color: '#C4C4C4' }} />
       </View>
-      <TranslationCard translation={TRANSLATION_DATA} />
+      <TranslationCard {...TRANSLATION_DATA} />
     </View>
     <Examples items={EXAMPLES_DATA} />
   </>
